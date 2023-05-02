@@ -115,7 +115,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <ProductList productList={productList} />
+      <ProductList arrey={productList} />
       <CartList />
     </div>
   );

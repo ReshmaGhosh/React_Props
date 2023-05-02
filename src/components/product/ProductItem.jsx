@@ -1,10 +1,14 @@
 import React from "react";
 
-export default function ProductItem({ productListProp }) {
+export default function ProductItem({ result }) {
+  console.log(result, "result");
   return (
-    <div>
+    <div className="productItem">
       ProductItem
-      <p>{productListProp}</p>
+      <div className="title">{result.title}</div>
+      <div>{result.price}</div>
+      <div>{result.description}</div>
+      <img src={result.image} alt={result.title} width="50px" />
     </div>
   );
 }
