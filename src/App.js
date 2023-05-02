@@ -1,4 +1,6 @@
 import "./App.css";
+import ProductList from "./components/product/ProductList";
+import NavBar from "./components/navBar/NavBar";
 
 function App() {
   const productList = [
@@ -109,7 +111,12 @@ function App() {
       },
     },
   ];
-  return <div></div>;
+  return (
+    <div>
+      <NavBar />
+      <ProductList productList={productList} />
+    </div>
+  );
 }
 
 export default App;

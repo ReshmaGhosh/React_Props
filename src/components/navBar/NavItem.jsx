@@ -1,5 +1,11 @@
 import React from "react";
 
-export default function NavItem() {
-  return <div>NavItem</div>;
+export default function NavItem({ student, fruits }) {
+  const fruit = fruits.map((fruit) => <li>{fruit}</li>);
+  return (
+    <div>
+      <p>{student}</p>
+      <p>{fruit}</p>
+    </div>
+  );
 }

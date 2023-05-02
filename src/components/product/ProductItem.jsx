@@ -1,5 +1,10 @@
 import React from "react";
 
-export default function ProductItem() {
-  return <div>ProductItem</div>;
+export default function ProductItem({ productListProp }) {
+  return (
+    <div>
+      ProductItem
+      <p>{productListProp}</p>
+    </div>
+  );
 }
