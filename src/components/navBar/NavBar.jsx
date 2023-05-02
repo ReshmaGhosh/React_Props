@@ -7,7 +7,7 @@ export default function NavBar() {
 
   return (
     <div>
-      <NavItem student={student.name} fruits={fruits} />
+      <NavItem student={student} fruits={fruits} />
     </div>
   );
 }

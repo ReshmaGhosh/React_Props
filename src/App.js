@@ -1,6 +1,7 @@
 import "./App.css";
 import ProductList from "./components/product/ProductList";
 import NavBar from "./components/navBar/NavBar";
+import CartList from "./components/cart/CartList";
 
 function App() {
   const productList = [
@@ -115,6 +116,7 @@ function App() {
     <div>
       <NavBar />
       <ProductList productList={productList} />
+      <CartList />
     </div>
   );
 }
