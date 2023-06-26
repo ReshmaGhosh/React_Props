@@ -1,3 +1,6 @@
+Deploy Link: https://vercel.com/reshma/react-ts-form-kmy1/EzrDbZSQ1FQd4YHYp6kc8Ry1X7SJ
+
+
 # React Assignment - Prop
 
 ## How to run the project
@@ -16,3 +19,5 @@
 ## Screenshot
 
 ![productList](./screenshots/productList.png)
+
+Deploy Link: https://vercel.com/reshma/react-ts-form-kmy1/EzrDbZSQ1FQd4YHYp6kc8Ry1X7SJ
